@@ -7,6 +7,13 @@ This is a demo to demonstrate the work of optimal binomial reliabiltiy demonstra
 
 ## Instructions
 The RDT design is based on Monte Carlo Simulation.
+- **functions.R** contains all the functions to generate simulation datasets.
+- **Plot.R** is used to generate all the plots.
+- **data_generator.R** is used for to generate different simulation datasets based on different priors and design settings.
+
+#### The tradeoff among different design parameters is shown as below:
+![](Tradeoff.png)
+
 
 ## [R Package](Rpackage)
 [BRDT](https://github.com/ericchen12377/BRDT) is the related R package for the project. 
